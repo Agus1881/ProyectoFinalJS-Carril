@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Metal Zone</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/logo-black.png" alt="" height="60px" >
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <img src="img/carrito.png" alt="" height="30px" id="idBotonCarrito">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenido a Metal Zone</h1>
+        <h2>
+            La mejor tienda para todos los productos musicales que necesites!
+        </h2>
+        <div class="botones">
+             <div>
+                <button class="filtro" value="instrumentos">Instrumentos</button>
+            </div>
+            <div>
+                <button class="filtro" value="accesorios">Accesorios</button>
+            </div>
+            <div>
+                <button id="restablecer">Restablecer Filtros</button>
+            </div>
+            <div>
+                <button id="finalizar">Finalizar Compra</button>
+            </div>
+        </div>
+
+        <div id="contenedorPadre"><div id="cartaProducto"></div></div>
+
+        <div id="carritoVisible" class="carritoEnIndex alternarCarrito"></div>
+            
+        
+    </main>
+    <footer>
+        <h4>Todos los derechos reservados.</h4>
+        <h3>Nuestras Redes Sociales:</h3>
+        <div>
+            <img src="img/facebooklogo.png" alt="Facebook">
+            <img src="img/instagramlogo.png" alt="Instagram">
+        </div>
+
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

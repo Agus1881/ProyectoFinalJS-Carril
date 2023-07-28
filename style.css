@@ -1,0 +1,136 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estilos del header  */
+
+header {
+    background-color: orange;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#cartaProducto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* main */
+
+main {
+    min-height: calc(100% - 90px);
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(247, 171, 31);
+    border-color: rgb(143, 94, 4);
+    border-radius: 6px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+/* footer */
+
+
+footer {
+    background-color: orange;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* carrito */
+
+
+
+.carritoEnIndex {
+    border: solid 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.alternarCarrito {
+    display: none;
+}
+
+.notificacion {
+    background: rgb(255, 166, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.productoEnCarrito {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
